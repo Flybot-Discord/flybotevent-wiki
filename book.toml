@@ -1,0 +1,23 @@
+[book]
+authors = ["💻снайпер060⌨#1913"]
+language = "fr"
+multilingual = false
+src = "src"
+title = "Flybot Wiki"
+description = "Un wiki pour expliquer l'event noël de FlyBot"
+
+[output.html]
+theme = "src/theme"
+
+git-repository-url = "https://github.com/Flybot-Discord/flybotevent-wiki"
+input-404 = "404.md"
+site-url = "/flybot-wiki/"
+edit-url-template = "https://github.com/Flybot-Discord/flybotevent-wiki/edit/dev/{path}"
+additional-css = ["./theme/catppuccin.css", "./theme/catppuccin-highlight.css"]
+
+[output.html.search]
+boost-title = 4  
+
+[output.html.fold]
+enable = true
+level = 0
