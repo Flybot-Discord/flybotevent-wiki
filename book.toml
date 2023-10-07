@@ -7,7 +7,7 @@ title = "Flybot Wiki"
 description = "Un wiki pour expliquer l'event noël de FlyBot"
 
 [output.html]
-theme = "src/theme"
+theme = "./src/theme"
 
 git-repository-url = "https://github.com/Flybot-Discord/flybotevent-wiki"
 input-404 = "404.md"
